@@ -1,4 +1,4 @@
-## AMQ shared consumers on listening on different threads
+## AMQ shared consumers listening from different threads in the same topic
 
 This is a small sample of how to consume, from different threads, using QPID from a multicast address on Red AMQ 7 broker. Use it as reference for your own implementation.
 
