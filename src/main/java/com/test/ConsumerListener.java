@@ -13,11 +13,10 @@ public class ConsumerListener implements MessageListener {
 	}
 
 	public void onMessage(Message message) {
-		TextMessage textMessage = (TextMessage) message;
 		try {
-			Thread.sleep(1000);
+			TextMessage textMessage = (TextMessage) message;
 			System.out.println(consumerName + ": " + textMessage.getText());
-		} catch (JMSException | InterruptedException e) {
+		} catch (JMSException e) {
 			e.printStackTrace();
 		}
 	}

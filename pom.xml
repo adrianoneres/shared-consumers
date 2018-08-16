@@ -18,6 +18,11 @@
 			<artifactId>qpid-jms-client</artifactId>
 			<version>0.34.0.redhat-00002</version>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7.redhat-2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
