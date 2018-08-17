@@ -29,11 +29,10 @@ public class Producer {
 			MessageProducer producer = session.createProducer(topic);
 			
 			//Send a message to the topic
-			Message first = session.createTextMessage("First message.");
-//			Message second = session.createTextMessage("Second message.");
+//			Message msg = session.createTextMessage("First message.");
+			Message msg = session.createTextMessage("Second message.");
 			
-			producer.send(first);
-//			producer.send(second);
+			producer.send(msg);
 			
 			//Close session and connection
 			session.close();

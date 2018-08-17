@@ -18,6 +18,6 @@ This is a small sample of how to consume, using QPID, from different threads in 
 
 4. Run the `Producer.java`. A message must be sent to the topic and one of the consumers should consume it.
 
-5. Alternatively, comment lines `32` and `35` and uncomment lines `33` and `36` in class `Producer.java`.
+5. Alternatively, comment line `32` and uncomment line `33` in class `Producer.java`.
 
 6. Run the `Producer.java` again. A message must be sent to the topic and the another consumer should consume it. 
